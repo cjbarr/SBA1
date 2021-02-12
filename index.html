@@ -7,11 +7,12 @@
     <title>Family Recipe</title>
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="script/script.js"></script>
+    <style>body{background-color: rgba(51, 51, 51, 0.57);}</style>
 </head>
 <body>
 
-    <h1 class="header">Welcome to the super secret family recipe website</h1>
-<h2 class="subHeader">Enter your log in credentials below to access the recipe!</h2>
+    <h1 style="background-color:gold" class="header">Welcome to the super secret family recipe website</h1>
+<h2 style="background-color:gold" class="subHeader">Enter your log in credentials below to access the recipe!</h2>
 
 
     
@@ -27,11 +28,13 @@
 <div id="circle">
 <form id=logInForm>
    
-    <input placeholder="Email@email.com">
+    <input id="logUser" placeholder="Email@email.com">
     <br>
-    <input placeholder="Password">
-
+    <input id="logPass" placeholder="Password">
 </form>
+    <button onclick="logIn()">Log In</button>
+
+
 </div>
 
 <h1 class="red">SECRET</h1>
