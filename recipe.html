@@ -25,24 +25,29 @@
 <img id="recipeImg" src="https://www.kitchensanctuary.com/wp-content/uploads/2020/06/Artisan-Bread-square-FS-46.jpg">
 
 
-    <table>
+    <table id="recipeTable">
         <tr>
-            <th>All-Purpose Flour</th>
-            <th>Salt</th>
-            <th>Active Dry Yeast</th>
-            <th>Warm Water</th>
+            <th>All-Purpose Flour (Cups)</th>
+            <th>Salt (tsp)</th>
+            <th>Active Dry Yeast (tsp)</th>
+            <th>Warm Water (Cups)</th>
         </tr>
         <tr>
-            <td>3 Cups</td>
-            <td>1 1/2 tsp</td>
-            <td>1/2 tsp</td>
-            <td>1 1/2 Cup</td>
+            <td id="0">3</td>
+            <td id="1">1</td>
+            <td id="2">1/2</td>
+            <td id="3">1 1/2</td>
         </tr>
     </table>
-
+<div id="recipeForm"> 
     <h3>Recipe Modifier:</h3>
-    <form></form>
+<form>
+        <input type="text" id="recipeInput" name="recipeInput" placeholder="How many loaves?">
+    </form>
+        <button onclick= "recipe(document.getElementById('recipeInput').value)">Modify</button>
 
+
+</div>
 
     <ul id="instructions">
         <li>In a large mixing bowl, whisk together flour, salt and yeast. Pour in warm water and stir mixture with a wooden spoon
