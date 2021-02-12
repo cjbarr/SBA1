@@ -4,7 +4,7 @@ const recipeRegex = /^\d$/;
 
 function logIn(){
     if (document.getElementById("logUser").value !=="" && document.getElementById("logPass").value !=="" ){
-    document.getElementById("circle").innerHTML = "Success!"
+        window.location.assign(`recipe.html`)
     }
     else{alert("Enter a username and password")}
 }
