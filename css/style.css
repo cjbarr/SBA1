@@ -9,7 +9,8 @@ border-radius:50%;
 align-items: center;
 justify-content: center;
 margin-left:auto;
-margin-right:auto;}
+margin-right:auto;
+color:red;}
 
 div p{
     background-color: beige;

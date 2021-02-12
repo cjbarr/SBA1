@@ -3,7 +3,7 @@ let defaultRecipe = [3, 1.5, .5, 1.5]
 const recipeRegex = /^\d$/;
 
 function logIn(){
-    validateEmail(document.getElementById("logUser").value)
+    document.getElementById("circle").innerHTML = "Success!"
 }
 
 
