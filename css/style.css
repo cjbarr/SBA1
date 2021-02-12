@@ -1,6 +1,16 @@
 body{background-color: bisque;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
+#circle{background-color:grey;
+    display:flex;
+width:25vw;
+height:25vw;
+border-radius:50%;
+align-items: center;
+justify-content: center;
+margin-left:auto;
+margin-right:auto;}
+
 div p{
     background-color: beige;
     width:75%;
@@ -8,6 +18,7 @@ div p{
     margin-right:auto;
 
 }
+
 
 .header{text-align: center;
 color:rgb(60, 57, 57);
@@ -22,6 +33,12 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;}
 
+#lock{display:flex;
+text-align: center;
+flex-flow:column wrap;
+}
+
+
 .menu{float: right;}
 
 #recipeForm{width:50%;
@@ -34,6 +51,11 @@ margin-right:auto;
 display:block;
 margin-left:auto;
 margin-right:auto;
+}
+
+.red{color:red;
+font-weight: bolder;
+font-size: 5em;
 }
 
 .subHeader{text-align: center;
