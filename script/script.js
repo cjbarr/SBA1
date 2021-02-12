@@ -3,7 +3,10 @@ let defaultRecipe = [3, 1.5, .5, 1.5]
 const recipeRegex = /^\d$/;
 
 function logIn(){
+    if (document.getElementById("logUser").value !=="" && document.getElementById("logPass").value !=="" ){
     document.getElementById("circle").innerHTML = "Success!"
+    }
+    else{alert("Enter a username and password")}
 }
 
 

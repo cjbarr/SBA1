@@ -10,7 +10,7 @@ align-items: center;
 justify-content: center;
 margin-left:auto;
 margin-right:auto;
-color:red;}
+color:white;}
 
 div p{
     background-color: beige;
@@ -58,6 +58,10 @@ margin-right:auto;
 font-weight: bolder;
 font-size: 5em;
 }
+
+
+option:nth-child(odd){background-color:gold;}
+option:nth-child(even){background-color: yellowgreen;}
 
 .subHeader{text-align: center;
 color:rgb(60, 57, 57);
