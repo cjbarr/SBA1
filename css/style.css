@@ -1,6 +1,13 @@
 body{background-color: bisque;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
+div p{
+    background-color: beige;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
 
 .header{text-align: center;
 color:rgb(60, 57, 57);

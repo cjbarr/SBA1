@@ -7,11 +7,13 @@ function menu(value) {
 
 function recipe(value){
     let newRecipe=[]
+  {
     for(i=0;i<defaultRecipe.length;i++){
         newRecipe.push(value*defaultRecipe[i])
     }
     for(i=0;i<newRecipe.length;i++){
         document.getElementById([i]).innerHTML = newRecipe[i];
     }
+}
 
 }
